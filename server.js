@@ -11,7 +11,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/MyMarket', function (req, res) {
-   res.sendFile(path.join(__dirname, 'ui', 'MyMarket.html'));
+   res.sendFile(path.join(__dirname, 'ui', 'imad-app-v2/ui/MyMarket.html'));
 });
 
 app.get('/ui/style.css', function (req, res) {
