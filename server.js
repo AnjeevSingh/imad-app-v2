@@ -9,6 +9,9 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
+app.get('/anjeev', function (req, res) {
+   res.send('anjeev singh');
+});
 app.get('/testfile', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'testfile.html'));
 });
