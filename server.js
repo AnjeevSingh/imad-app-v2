@@ -13,6 +13,10 @@ app.get('/anjeev', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'anjeev.html'));
 });
 
+app.get('/Intro', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'Intro.html'));
+});
+
 app.get('/MyMarket', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'MyMarket.html'));
 });
